@@ -1,0 +1,262 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://kit.fontawesome.com/a076d05399.js");
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+
+.container{
+    /* top: 0px;
+left: 0px; */
+/* width: 239px; */
+height: 500px;
+background: #131A34 0% 0% no-repeat padding-box;
+opacity: 1;
+color: white;
+}
+
+.sidebar_title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.sidebar_title img{
+    top: 35px;
+/* left: 38px; */
+/* width: 16px; */
+height: 17px;
+background: #FED6CF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.sidebar_title .nav_icon{
+    padding-left: 89px;
+}
+
+.sidebar_title p{
+    padding: 7px 15px;
+}
+
+.sidebar__link{
+    margin: 15px 20px;
+}
+
+.sidebar{
+    left: 0px;
+}
+
+.sidebar__link  a{
+    top: 188px;
+/* left: 50px; */
+/* width: 63px; */
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #C2C6D9;
+opacity: 1;
+text-decoration: none;
+}
+
+.sidebar__menu p{
+    top: 251px;
+/* left: 25px; */
+/* width: 142px; */
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #7E849F;
+opacity: 1;
+margin: 10px;
+}
+
+.sidebar__link1 i{
+    top: 287px;
+/* left: 26px; */
+/* width: 30px; */
+height: 30px;
+/* background: transparent url('img/Oval.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+
+}
+
+.sidebar__link1{
+    margin: 11px 15px;
+}
+
+.sidebar__link1 a{
+    top: 337px;
+/* left: 66px; */
+/* width: 96px; */
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #C2C6D9;
+opacity: 1;
+text-decoration: none;
+}
+
+.whole{
+    display: flex;
+    flex-direction: row;
+    /* left: 0px; */
+}
+
+.navbar{
+    top: 0px;
+    /* left: 239px; */
+    /* width: 1201px; */
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 8px #0000001A;
+    opacity: 1;
+}
+
+.main__title{
+    display: flex;
+    align-items: center;
+    padding: 0px 14px;
+    margin-bottom: 15px;
+    }
+
+.main__title img{
+    top: 18px;
+/* left: 262px; */
+/* width: 52px; */
+height: 36px;
+/* background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+
+.main__title p{
+    top: 11px;
+    left: 327px;
+    /* width: 254px; */
+    /* height: 25px; */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #131A34;
+    opacity: 1;
+    margin-left: 15px;
+    margin: 0px 10px;
+}
+
+.navbar__left a{
+    /* top: 47px; */
+    left: 595px;
+    width: 108px;
+    height: 17px;
+    text-align: left;
+    letter-spacing: 0.01px;
+    color: #919194;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 10px 20px;
+}
+/* .main__container{
+    top: 0px;
+left: 0px;
+width: 239px;
+height: 500px;
+/* background: #131A34 0% 0% no-repeat padding-box; */
+/* opacity: 1;
+color: white; */
+/* } */ 
+
+.main__cards{
+    /* background: transparent linear-gradient(180deg, #E3E3E3 0%, #ECECEC 100%) 0% 0% no-repeat padding-box; */
+    /* height: 430px; */
+    /* width: 100%; */
+    display: flex;
+}
+
+.card .box{
+    top: 144px;
+left: 262px;
+width: 281px;
+height: 156px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 6px #0000001A;
+border-radius: 4px;
+opacity: 1;
+}
+
+.card .box1{
+    top: 144px;
+    left: 563px;
+    width: 281px;
+    height: 76px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #0000001A;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.card .box2{
+    top: 418px;
+/* left: 864px; */
+/* width: 281px; */
+height: 150px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 6px #0000001A;
+border-radius: 4px;
+opacity: 1;
+margin-left: 21px;
+
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+}
+.box1 p{
+    padding-left:10px ;
+}
+
+.box1 h1{
+    top: 157px;
+/* left: 575px; */
+/* width: 50px; */
+height: 50px;
+/* background: transparent url('Mask Group 2.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+padding: 5px 5px;
+}
+
+.main__cards .card p{
+    top: 110px;
+left: 1165px;
+/* width: 174px; */
+height: 22px;
+text-align: left;
+letter-spacing: 0px;
+color: #131A34;
+opacity: 1;
+}
+
+.box p{
+    padding: 10px 10px;
+}
+
+.box button{
+    color: #FFFFFF;
+    opacity: 1;
+    background: crimson;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin: 10px 10px;
+}
+
+.box2 p{
+    top: 162px;
+left: 636px;
+width: 93px;
+height: 20px;
+text-align: left;
+letter-spacing: 0px;
+color: #131A34;
+opacity: 1;
+}
