@@ -1,12 +1,132 @@
-<div class="col-md-6 col-md-offset-3">
-  <h1>Hi {{currentUser.firstName}}!</h1>
+<div >
+  <!-- <h1>Hi {{currentUser.firstName}}!</h1>
   <p>You're logged in with the MEAN Stack & Angular 6!!</p>
-  <h3>All registered users:</h3>
-  <ul>
+  <h3>All registered users:</h3> -->
+  
+  <div class="whole">
+    <div class="container">
+        <div id="sidebar">
+            <div class="sidebar_title">
+                <img src="logo.png" alt="logo" />
+                <p>Globiliti</p>
+                <div class="nav_icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </div>
+                <!-- <p></p> -->
+              </div>
+             
+            </div>
+    
+            <div class="sidebar__menu">
+              <div class="sidebar__link">
+                <i class="fa fa-home"></i>
+                <a href="#">Home</a>
+              </div>
+              <div class="sidebar__link">
+                <i class="fa fa-home"></i>
+                <a href="#">My pilots</a>
+              </div>
+              <div class="sidebar__link">
+                <i class="fa fa-inbox"></i>
+                <a href="#">Inbox</a>
+              </div>
+              <div class="sidebar__link">
+                <i class="fa fa-envelope"></i>
+                <a href="#">My team</a>
+              </div>
+             <hr>
+             <p>Add Team member</p>
+              <div class="sidebar__link1">
+               <img src="" alt="">
+               <i class="fa fa-user"></i>
+                <a href="#">Abc</a>
+              </div>
+              <div class="sidebar__link1">
+                <i class="fa fa-user"></i>
+                <a href="#">Xyz</a>
+              </div>
+              <div class="sidebar__link1">
+                <i class="fa fa-user"></i>
+                <a href="#">Pqr</a>
+              </div>
+              <div class="sidebar__link1">
+                <i class="fa fa-user"></i>
+                <a href="#">lmn</a>
+              </div>
+        </div>
+    </div>
+    <div class="main__container">
+
+
+        <nav class="navbar">
+            <div class="main__title">
+                <img src="3rd.jpg" alt="" />
+                  <p>Shenzhen Houde Academy</p>
+              </div>
+            <div class="navbar__left">
+              <a href="#">Impact compaigns</a>
+              <a href="#">Learning tools</a>
+              <a class="active_link" href="#">Tools piolsts</a>
+            </div>
+          </nav>
+
+          <div class="main__cards">
+            
+            <div class="card">
+                <p>Impact Campaigns</p>
+                <div class="box">
+                    <h1></h1>
+                    <p>Reading Comprehension</p>
+                    <button>High</button>
+                </div>
+                <div class="box">
+                    <p>career development</p>
+                </div>
+            
+              </div>
+
+            <div class="card">
+                <p>Learning Tools</p>
+                <div class="box1">
+                    <h1></h1>
+                    <p>read</p>
+                </div>
+                <div class="box1">
+                    <p>career development</p>
+                </div>
+                <div class="box1">
+                    <p>career development</p>
+                </div>
+                <div class="box1">
+                    <p>career development</p>
+                </div>
+
+            
+              </div>
+            <div class="card">
+                <p>Tools piolots</p>
+                <div class="box2">
+                    <p>read</p>
+                </div>
+                <div class="box2">
+                    <p>career development</p>
+                </div>
+           
+               
+
+            
+              </div>
+            </div>
+
+    </div>
+
+  <!-- <ul>
       <li *ngFor="let user of users">
           {{user.username}} ({{user.firstName}} {{user.lastName}})
           - <a (click)="deleteUser(user._id)">Delete</a>
       </li>
   </ul>
-  <p><a [routerLink]="['/login']">Logout</a></p>
+  <p><a [routerLink]="['/login']">Logout</a></p> -->
 </div>
+
+
