@@ -1,0 +1,37 @@
+<!-- <div>
+  <input type="text" name="fname" [(ngModel)]="name">
+  <p> {{name}}</p>
+</div> -->
+
+<h1>App component</h1>
+
+<!-- <app-server> </app-server> -->
+
+<div class="app-server"></div>
+
+<p>server name is {{servername}} , status id {{serverid}} and status is {{serverstatus}} </p>
+
+  <input type="text" placeholder="Server name" [(ngModel)]="servername">
+
+
+<button [disabled]="buttonstate" (click)="toggleserver()">Toggle button</button>
+
+<h1 [ngStyle]="{color : getcolor()}">Example of ngif </h1>
+
+<h1 [ngClass]="{'white':flag}">Another style using class</h1>
+<p *ngIf="flag; else elseblock">Flag is true</p>
+
+<ng-template #elseblock>
+  <p id="false"> Flag is false</p>
+</ng-template>
+<button (click)="toggleflag()">toggle flag</button>
+
+<h1>Student</h1>
+<input type="text" name="" id="" [(ngModel)]="currentnm">
+<button (click)="add()"> submit</button>
+<li *ngFor="let names of student">{{names}}</li>
+
+<!-- //Assignment -->
+<p [ngStyle]="{color : getcolor()}">Lorem ipsum dolor sit amet.</p>
+
+<button (click)="togglepara()">hide</button>
